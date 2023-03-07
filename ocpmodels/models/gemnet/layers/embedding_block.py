@@ -8,7 +8,7 @@ LICENSE file in the root directory of this source tree.
 import numpy as np
 import torch
 
-from .base_layers import Dense
+from ocpmodels.models.gemnet.layers.base_layers import Dense
 
 
 class AtomEmbedding(torch.nn.Module):

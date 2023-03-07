@@ -7,7 +7,7 @@ LICENSE file in the root directory of this source tree.
 
 import torch
 
-from ..initializers import he_orthogonal_init
+from ocpmodels.models.gemnet.initializers import he_orthogonal_init
 
 
 class EfficientInteractionDownProjection(torch.nn.Module):

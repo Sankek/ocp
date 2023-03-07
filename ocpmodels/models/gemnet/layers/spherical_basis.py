@@ -9,8 +9,8 @@ import sympy as sym
 import torch
 from torch_geometric.nn.models.schnet import GaussianSmearing
 
-from .basis_utils import real_sph_harm
-from .radial_basis import RadialBasis
+from ocpmodels.models.gemnet.layers.basis_utils import real_sph_harm
+from ocpmodels.models.gemnet.layers.radial_basis import RadialBasis
 
 
 class CircularBasisLayer(torch.nn.Module):

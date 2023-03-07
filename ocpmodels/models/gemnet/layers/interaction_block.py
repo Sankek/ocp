@@ -11,10 +11,10 @@ import torch
 
 from ocpmodels.modules.scaling.scale_factor import ScaleFactor
 
-from .atom_update_block import AtomUpdateBlock
-from .base_layers import Dense, ResidualLayer
-from .efficient import EfficientInteractionBilinear
-from .embedding_block import EdgeEmbedding
+from ocpmodels.models.gemnet.layers.atom_update_block import AtomUpdateBlock
+from ocpmodels.models.gemnet.layers.base_layers import Dense, ResidualLayer
+from ocpmodels.models.gemnet.layers.efficient import EfficientInteractionBilinear
+from ocpmodels.models.gemnet.layers.embedding_block import EdgeEmbedding
 
 
 class InteractionBlockTripletsOnly(torch.nn.Module):

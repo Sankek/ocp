@@ -10,8 +10,8 @@ from torch_scatter import scatter
 
 from ocpmodels.modules.scaling import ScaleFactor
 
-from ..initializers import he_orthogonal_init
-from .base_layers import Dense, ResidualLayer
+from ocpmodels.models.gemnet.initializers import he_orthogonal_init
+from ocpmodels.models.gemnet.layers.base_layers import Dense, ResidualLayer
 
 
 class AtomUpdateBlock(torch.nn.Module):

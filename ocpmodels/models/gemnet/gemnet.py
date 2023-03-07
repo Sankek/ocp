@@ -23,14 +23,14 @@ from ocpmodels.common.utils import (
 from ocpmodels.models.base import BaseModel
 from ocpmodels.modules.scaling.compat import load_scales_compat
 
-from .layers.atom_update_block import OutputBlock
-from .layers.base_layers import Dense
-from .layers.efficient import EfficientInteractionDownProjection
-from .layers.embedding_block import AtomEmbedding, EdgeEmbedding
-from .layers.interaction_block import InteractionBlockTripletsOnly
-from .layers.radial_basis import RadialBasis
-from .layers.spherical_basis import CircularBasisLayer
-from .utils import (
+from ocpmodels.models.gemnet.layers.atom_update_block import OutputBlock
+from ocpmodels.models.gemnet.layers.base_layers import Dense
+from ocpmodels.models.gemnet.layers.efficient import EfficientInteractionDownProjection
+from ocpmodels.models.gemnet.layers.embedding_block import AtomEmbedding, EdgeEmbedding
+from ocpmodels.models.gemnet.layers.interaction_block import InteractionBlockTripletsOnly
+from ocpmodels.models.gemnet.layers.radial_basis import RadialBasis
+from ocpmodels.models.gemnet.layers.spherical_basis import CircularBasisLayer
+from ocpmodels.models.utils import (
     inner_product_normalized,
     mask_neighbors,
     ragged_range,

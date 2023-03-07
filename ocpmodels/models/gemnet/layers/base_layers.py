@@ -9,7 +9,7 @@ import math
 
 import torch
 
-from ..initializers import he_orthogonal_init
+from ocpmodels.models.gemnet.initializers import he_orthogonal_init
 
 
 class Dense(torch.nn.Module):
