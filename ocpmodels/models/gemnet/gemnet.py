@@ -30,7 +30,7 @@ from ocpmodels.models.gemnet.layers.embedding_block import AtomEmbedding, EdgeEm
 from ocpmodels.models.gemnet.layers.interaction_block import InteractionBlockTripletsOnly
 from ocpmodels.models.gemnet.layers.radial_basis import RadialBasis
 from ocpmodels.models.gemnet.layers.spherical_basis import CircularBasisLayer
-from ocpmodels.models.utils import (
+from ocpmodels.models.gemnet.utils import (
     inner_product_normalized,
     mask_neighbors,
     ragged_range,
