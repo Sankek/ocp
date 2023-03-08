@@ -1,1 +1,2 @@
 include ocpmodels/models/*
+include ocpmpdels/models/scn/*.pt
